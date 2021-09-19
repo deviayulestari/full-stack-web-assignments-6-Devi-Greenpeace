@@ -4,13 +4,13 @@ Pseudocode Thermometer :
 3. STORE “temperatureType” AS STRING WITH ANY VALUE  
 4. STORE “result” AS INTEGER  
 5. IF "temperatureType" EQUALS fahrenheit  
-        CALCULATE (“temperature” MINUS 32) TIMES (5 DIVIDED 9)  
-        SET “result” WITH VALUE CALCULATION RESULT  
+        space&nbsp;CALCULATE (“temperature” MINUS 32) TIMES (5 DIVIDED 9)  
+        space&nbsp;SET “result” WITH VALUE CALCULATION RESULT  
     ELSE IF "temperatureType" EQUALS kelvin  
-        CALCULATE “temperature” MINUS 273.15  
-        SET “result” WITH VALUE CALCULATION RESULT 
+        space&nbsp;CALCULATE “temperature” MINUS 273.15  
+        space&nbsp;SET “result” WITH VALUE CALCULATION RESULT 
     ELSE IF "temperatureType" EQUALS celcius  
-        SET “result” WITH “temperature”  
+        space&nbsp;SET “result” WITH “temperature”  
     ELSE
-        DISPLAY "Temperature type not available. Only fahrenheit, kelvin and celsius are available."  
+        space&nbsp;DISPLAY "Temperature type not available. Only fahrenheit, kelvin and celsius are available."  
 6. DISPLAY “result”  
