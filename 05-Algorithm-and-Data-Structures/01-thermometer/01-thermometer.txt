@@ -14,3 +14,4 @@ Pseudocode Thermometer :
     ELSE
         DISPLAY "Temperature type not available. Only fahrenheit, kelvin and celsius are available."  
 6. DISPLAY “result”  
+7. END
