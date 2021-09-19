@@ -1,0 +1,14 @@
+Pseudocode skilvul-grading:  
+1. BEGIN  
+2. STORE "grade" AS INTEGER WITH ANY VALUE  
+3. STORE "finalGrade" AS INTEGER
+4. IF "grade" LESS THAN 68
+        SET "finalGrade" WITH "grade"
+    ELSE IF ("grade" PLUS 1) MODULUS BY 5 EQUAL 0
+        SET "finalGrade" WITH "grade" PLUS 1
+    ELSE IF ("grade" PLUS 2) MODULUS BY 5 EQUAL 0
+         SET "finalGrade" WITH "grade" PLUS 1
+    ELSE 
+        SET "finalGrade" WITH "grade"
+5. DISPLAY "finalGrade"
+6. END
