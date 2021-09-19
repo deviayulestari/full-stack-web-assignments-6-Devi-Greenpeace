@@ -5,7 +5,7 @@ Pseudocode same-meaning:
 4. STORE "countRight" as INTEGER WITH "lengthWord" MINUS 1  
 5. STORE "countLeft" as INTEGER WITH 0 
 6. STORE "output" as BOOLEAN 
-7. WHILE "countRight" MORE THAN EQUAL 0 AND "countLeft" LESS THAN "lengthWord" 
+7. WHILE "countRight" MORE THAN EQUALS 0 AND "countLeft" LESS THAN "lengthWord" 
         IF "word" INDEX "countLeft" EQUALS "word" INDEX "countRight" 
             SET "output" WITH TRUE
             SET "countLeft" WITH "countLeft" PLUS 1 
