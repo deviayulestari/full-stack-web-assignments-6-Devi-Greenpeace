@@ -7,7 +7,7 @@ Pseudocode skilvul-grading:
     ELSE IF ("grade" PLUS 1) MODULUS BY 5 EQUAL 0
         SET "finalGrade" WITH "grade" PLUS 1
     ELSE IF ("grade" PLUS 2) MODULUS BY 5 EQUAL 0
-         SET "finalGrade" WITH "grade" PLUS 1
+         SET "finalGrade" WITH "grade" PLUS 2
     ELSE 
         SET "finalGrade" WITH "grade"
 5. DISPLAY "finalGrade"
