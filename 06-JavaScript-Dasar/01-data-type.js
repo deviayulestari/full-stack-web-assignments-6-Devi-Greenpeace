@@ -31,4 +31,6 @@ console.log(isNaN(isNotNumber));
 /// Gunakan built-in function yang dimiliki oleh Javascript untuk mengubah sebuah String menjadi Number
 const stringToNumber = "1000";
 let strToNum = parseInt(stringToNumber);
+console.log(strToNum);
+//tambahan untuk check tipe datanya sudah berubah atau belum
 console.log(strToNum + " bertipe data " + typeof strToNum);
