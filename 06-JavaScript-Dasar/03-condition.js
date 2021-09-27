@@ -12,14 +12,14 @@ const userAge = 18;
 const drivingLicense = true;
 /// EDIT HERE
 if(userAge<18){
-    console.log("Anda belum cukup umur")
+    console.log("Anda belum cukup umur");
 }
 else{
     if(drivingLicense){
-        console.log("Selamat berkendara")
+        console.log("Selamat berkendara");
     } 
     else {
-        console.log("Diharapkan untuk membuat SIM terlebih dahulu")
+        console.log("Diharapkan untuk membuat SIM terlebih dahulu");
     }
 
 }
