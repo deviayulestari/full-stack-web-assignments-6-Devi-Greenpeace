@@ -2,15 +2,15 @@
 /// Kamu diminta untuk membuat sebuah perulangan menggunakan for loop, untuk mencetak angka prima dari 1 ~ 100
 /// EDIT HERE
 for(let i=2; i<100; i++) {
-    let isPrima = true;
+    let prime = true;
     
     for (let j = 2; j < i; j++) {
         if(i%j==0){
-            isPrima = false;
+            prime = false;
             break;  
         }
     }
-    if(isPrima==true){
+    if(prime==true){
         console.log(i+",");
     }
 }
