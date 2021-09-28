@@ -9,12 +9,13 @@
 /// *Blocks adalah code yang berada didalam curly braces {} contoh penggunaan block adalah pada conditional, function, dan  looping.
 /// - buatlah implementasi sederhana dari tiap-tiap variable scope yang dimiliki oleh Javascript
 let sentence = "Hello World!"; //ini adalah variable yang berada di global scope
-function sayHello(sentence){ 
-    return "Hello " + sentence; //ini adalah variable yang berada di local scope
+function sayHello(){ 
+    let letter = "Devi!";  //ini adalah variable yang berada di local scope
+    return "Hello " + letter;
 }
 
 console.log(sentence); //variabel pada global scope bisa diakses dimana saja termasuk di console.log
-console.log(sayHello("Devi!")); //variabel pada local scope bisa diakses hanya di local saja sehingga harus memasukkan parameter dahulu untuk mengassign variablenya
+console.log(letter); //akan undifined karena variabel pada local scope tidak bisa diakses diluar scopenya
 
 /// WRITE YOUR ANALYSIS HERE
 
