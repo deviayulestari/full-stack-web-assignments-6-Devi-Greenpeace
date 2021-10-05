@@ -1,12 +1,12 @@
 function getObjectValue(obj, path) {
-  var arrPath = path.split('.');
-  for (var i = 0; i < arrPath.length; ++i){
-    var j = arrPath[i];
+  let arrPath = path.split('.');
+  for (let i = 0; i < arrPath.length; ++i){
+    let j = arrPath[i];
     if (j in obj) {
         obj = obj[j];
-        return obj;
     } else {
         return null;
+        break;
     }
   }
   return obj;
@@ -35,4 +35,4 @@ const isMilkVegan = getObjectValue(milkBasedCoffee, "ingredients.milk.isVegan");
 
 console.log(espresso);
 console.log(coffeeBrand);
-console.log(isMilkVegan)
+console.log(isMilkVegan);
