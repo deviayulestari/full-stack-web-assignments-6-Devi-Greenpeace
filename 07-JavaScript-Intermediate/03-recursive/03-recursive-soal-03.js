@@ -3,7 +3,7 @@ const arr = [1, 2, 3, 4, 5];
 function searchInArray(arr, num) {
     let index = arr.length-1;
     if (arr.length === 0) {
-        return "angka tidak ditemukan"
+        return "angka tidak ditemukan";
     }
     if(arr[index] === num){
         return "angka ditemukan pada index: " + index;
