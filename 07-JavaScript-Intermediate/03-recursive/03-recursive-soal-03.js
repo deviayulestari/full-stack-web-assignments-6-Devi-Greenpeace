@@ -9,7 +9,7 @@ function searchInArray(arr, num) {
         return "angka ditemukan pada index: " + index;
     }
     let newArr = arr.slice(0, -1);
-    return searchInArray(newArr, num)
+    return searchInArray(newArr, num);
 }
 
 console.log(searchInArray(arr, 6));
