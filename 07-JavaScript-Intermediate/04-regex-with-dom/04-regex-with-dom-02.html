@@ -23,16 +23,20 @@
 
       elBtnSubmit.addEventListener("click", function(e) {
         e.preventDefault();
+        
         if (emailValidator.test(elInputEmail.value)) {
           if(passwordValidator.test(elInputPassword.value)){
             alert("Welcome to The Jungle");
+            elInputPassword.value = "";
           } else {
             alert("tolong masukan password sesuai dengan ketentuan");
+            elInputPassword.value = "";
           }
         } else {
           alert("tolong masukan email yang valid");
+          elInputPassword.value = "";
         }
-      })     
+      })    
     </script>
   </body>
 </html>
