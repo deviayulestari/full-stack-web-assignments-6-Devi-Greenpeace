@@ -14,7 +14,7 @@ function countAvg(arr){
 }
 
 function countAboveAvg(arr, avg) {
-    let checkArr = arr[0] >= avg;
+    let checkArr = arr[0] > avg;
     if(arr.length === 1){
         return checkArr; 
     }
