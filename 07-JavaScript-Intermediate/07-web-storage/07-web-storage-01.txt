@@ -1,4 +1,4 @@
-1. Local storage merupakan tempat di browser yang bisa digunakan utnuk menyimpan data dan data tidak akan hilang 
+1. localStorage merupakan tempat di browser yang bisa digunakan utnuk menyimpan data dan data tidak akan hilang 
 walaupun browser di close dan komputer di restart. Local storage sendiri bisa digunakan untuk menyimpan konfigurasi 
 yang diperlukan. Maksimum data yang dapat disimpan dalam Local Storage adalah 5 MB. Contohnya untuk menyimpan menyimpan 
 data dengan ukuran kecil, seperti preferensi pengguna atau data formulir.
